@@ -17,14 +17,15 @@ console.log("Q2 Start");
  
  //q3
  console.log("Q3 Start");
- let Number = 20 ;
+const Number = 20 ;
  function check(Number){
-    if (Number>=0) {
-        consol.log("Number is Negative ");
+    if(Number>0) {
+        console.log("Number is Negative "+Number);
      }else{
-        consol.log("Number is Positive ");
+        console.log("Number is Positive "+Number);
      }
  }
+check(Number);
  console.log("Q3 end");
 
  
